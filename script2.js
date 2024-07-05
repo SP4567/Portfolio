@@ -40,8 +40,16 @@ ScrollReveal().reveal('.home-content p, .about-content', { delay: 500 });
 
 const typed = new Typed('.multiple-text',{
     strings: ['Machine Learning Engineer', 'Machine Learning Specialist', 'Data Scientist', 'Web Developer', 'Aiml Content Writer'],
-    typeSpeed:100,
-    backSpeed:100,
-    backdelay:1000,
+    typeSpeed:20,
+    backSpeed:20,
+    backdelay:800,
     loop:true
 });
+
+const type = new Typed('.dotted-line',{
+    strings: ['.....'],
+    typeSpeed: 20,
+    backSpeed: 20,
+    loop:true
+});
+
