@@ -16,7 +16,7 @@ The scripts2.js contains the code for the functioning of the website.
 The netlify.toml file contains the code implementation of redirects
 
 
-# This repository contains the code for the development of a portfolio website. The website includes an HTML skeleton, CSS styles, and JavaScript functionality. The project also includes configuration files for deployment on Netlify.
+This repository contains the code for the development of a portfolio website. The website includes an HTML skeleton, CSS styles, and JavaScript functionality. The project also includes configuration files for deployment on Netlify.
 
 # Main Function Points
 
