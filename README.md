@@ -1,7 +1,7 @@
 # Portfolio
 
 
-This repository contains the code for the development of portfolio.
+This repository contains the code for the development of a portfolio website. The website includes an HTML skeleton, CSS styles, and JavaScript functionality. The project also includes configuration files for deployment on Netlify.
 
 
 The index2.html contains the code for the skeleton of the portfilio website and the skeleton has all the important tags of html that are used in the development of the website.
@@ -14,9 +14,6 @@ The scripts2.js contains the code for the functioning of the website.
 
 
 The netlify.toml file contains the code implementation of redirects
-
-
-This repository contains the code for the development of a portfolio website. The website includes an HTML skeleton, CSS styles, and JavaScript functionality. The project also includes configuration files for deployment on Netlify.
 
 # Main Function Points
 
