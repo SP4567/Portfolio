@@ -507,6 +507,10 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.footer p{
+    text-align: center;
+}
+
 @media (max-width:1200px){
     html{
         font-size: 55%;
