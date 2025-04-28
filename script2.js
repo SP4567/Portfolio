@@ -5,7 +5,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-let modeToggle = document.querySelector('.bx-moon, .bx-sun');
+let modeToggle = document.querySelector('.bx bx-moon, .bx bx-sun');
 
 modeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
