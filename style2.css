@@ -82,7 +82,7 @@ section
     box-shadow: 0 0 1rem var(--main-color);
     background: var(--main-color);
     color: var(--second-bg-color);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 0.6rem;
     transition: 0.5s;
 }
