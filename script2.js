@@ -5,6 +5,21 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+let modeToggle = document.querySelector('.bx-moon, .bx-sun');
+
+modeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Swap icons
+    if (document.body.classList.contains('dark-mode')) {
+        modeToggle.classList.remove('bx-moon');
+        modeToggle.classList.add('bx-sun');
+    } else {
+        modeToggle.classList.remove('bx-sun');
+        modeToggle.classList.add('bx-moon');
+    }
+});
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 window.onscroll = () =>{
