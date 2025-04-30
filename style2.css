@@ -532,7 +532,7 @@ span {
     border-radius: .8rem;
 }
 .footer{
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
 .footer-iconTop a i {
