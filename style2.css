@@ -426,6 +426,43 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
     transition: .5sec ease;
 }
+.research-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+.research{
+    background-color: var(--second-bg-color);
+}
+.research-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    text-align: justify;
+    padding: 4rem 3rem 7rem;
+    border-radius: 2rem;
+    flex: 1 1 30rem;
+}
+.research-box h3{
+    font-size: 2.4rem;
+    /* margin-bottom: 2rem;
+    padding: 3rem 2rem 4rem; */
+}
+.research-box:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: .5sec ease;
+    border-radius: 2rem;
+}
+.research-box p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+    text-align: justify;
+}
 .contact h2{
     margin-bottom: 3rem;
     text-align: center;
