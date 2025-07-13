@@ -108,7 +108,7 @@ section
     border-radius: 100%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 6rem 5rem;
+    margin: 7rem 5rem;
     box-shadow:  0 0 100px var(--main-color);
     animation: floatImage 4s ease-in-out infinite;
 }
