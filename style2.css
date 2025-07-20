@@ -142,7 +142,7 @@ section
 
 .home-content p{
     font-size: 1.4rem;
-    padding: 2rem;
+/*     padding: 2rem; */
     justify-content:right;
     text-align: justify;
 }
