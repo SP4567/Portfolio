@@ -174,8 +174,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
-    font-size: 2.2rem;
+    gap: 6rem;
+    font-size: 1.5rem;
     background: var(--second-bg-color);
 }
 
@@ -513,6 +513,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
