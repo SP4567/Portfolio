@@ -181,15 +181,10 @@ section {
 
 .about-img img
 {
-    border-radius: 20%;
-    color: var(--main-color);
-    border: .2rem solid var(--main-color);
-    border-radius: 100%;
-    font-size: 2rem;
-    color: var(--main-color);
-    margin: 0rem 5rem;
-    box-shadow:  0 0 100px var(--main-color);
-    animation: floatImage 4s ease-in-out infinite;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 30px rgba(250, 204, 21, 10);
+    animation: float 4s ease-in-out infinite
 }
 
 /* ================= HEADINGS ================= */
@@ -518,3 +513,4 @@ section {
         text-align: center;
     }
 }
+
