@@ -371,16 +371,126 @@ section {
     color: var(--dim-text-color);
 }
 
-/* ================= FOOTER ================= */
-.footer {
-    padding: 3rem 9%;
-    background: var(--second-bg-color);
+.research-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+.research{
+    background-color: var(--second-bg-color);
+}
+.research-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    text-align: justify;
+    padding: 4rem 3rem 7rem;
+    border-radius: 2rem;
+    flex: 1 1 30rem;
+}
+.research-box h3{
+    font-size: 2.4rem;
+    /* margin-bottom: 2rem;
+    padding: 3rem 2rem 4rem; */
+}
+.research-box:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 1rem var(--main-color);
+    transition: .5sec ease;
+    border-radius: 2rem;
+}
+.research-box p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+    text-align: justify;
+}
+.contact h2{
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-.footer p {
-    font-size: 1.4rem;
-    color: var(--dim-text-color);
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact{
+    background: var(--bg-color);
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+}
+.footer{
+    background: var(--second-bg-color);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
+
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer p{
+    text-align: center;
 }
 
 /* ================= RESPONSIVE ================= */
@@ -408,5 +518,6 @@ section {
         text-align: center;
     }
 }
+
 
 
