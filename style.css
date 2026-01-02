@@ -371,7 +371,7 @@ section {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: flex-start;
-    gap: .5rem;
+    gap: 1rem;
 }
 .research{
     background: radial-gradient(#111827, #020617);
@@ -513,6 +513,7 @@ section {
         text-align: center;
     }
 }
+
 
 
 
